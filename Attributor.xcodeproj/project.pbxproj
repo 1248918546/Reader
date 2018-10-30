@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38AA9AEA2187E81E0058B326 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AA9AE92187E81E0058B326 /* TextStatsViewController.m */; };
 		38D167022182AD5D00288503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D167012182AD5D00288503 /* AppDelegate.m */; };
 		38D167052182AD5D00288503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D167042182AD5D00288503 /* ViewController.m */; };
 		38D167082182AD5D00288503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D167062182AD5D00288503 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38AA9AE82187E81E0058B326 /* TextStatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		38AA9AE92187E81E0058B326 /* TextStatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		38D166FD2182AD5D00288503 /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D167002182AD5D00288503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38D167012182AD5D00288503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,8 +104,6 @@
 		38D166FF2182AD5D00288503 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				38D167002182AD5D00288503 /* AppDelegate.h */,
-				38D167012182AD5D00288503 /* AppDelegate.m */,
 				38D167032182AD5D00288503 /* ViewController.h */,
 				38D167042182AD5D00288503 /* ViewController.m */,
 				38D167062182AD5D00288503 /* Main.storyboard */,
@@ -110,6 +111,9 @@
 				38D1670B2182AD5F00288503 /* LaunchScreen.storyboard */,
 				38D1670E2182AD5F00288503 /* Info.plist */,
 				38D1670F2182AD5F00288503 /* main.m */,
+				38D167322182AD9400288503 /* Supporting Files */,
+				38AA9AE82187E81E0058B326 /* TextStatsViewController.h */,
+				38AA9AE92187E81E0058B326 /* TextStatsViewController.m */,
 			);
 			path = Attributor;
 			sourceTree = "<group>";
@@ -130,6 +134,15 @@
 				38D167262182AD5F00288503 /* Info.plist */,
 			);
 			path = AttributorUITests;
+			sourceTree = "<group>";
+		};
+		38D167322182AD9400288503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D167002182AD5D00288503 /* AppDelegate.h */,
+				38D167012182AD5D00288503 /* AppDelegate.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AA9AEA2187E81E0058B326 /* TextStatsViewController.m in Sources */,
 				38D167052182AD5D00288503 /* ViewController.m in Sources */,
 				38D167102182AD5F00288503 /* main.m in Sources */,
 				38D167022182AD5D00288503 /* AppDelegate.m in Sources */,
